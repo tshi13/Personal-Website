@@ -32,7 +32,12 @@ const featuredProject = projects[0];
 			.img {
 				display: block;
 				width: 100%;
-				height: auto;
+				height: 100%;
+			}
+
+      .pics {
+				display: block;
+				max-width: 150%;
 			}
 
 			.gradient,
@@ -181,6 +186,19 @@ const featuredProject = projects[0];
 					font-size: var(--f-u4);
 				}
 			}
+
+      .pure_text {
+				line-height: 4;
+				margin-bottom: 2rem;
+
+				> span:first-of-type {
+					line-height: 1.3;
+					margin-bottom: 0.5em;
+					display: block;
+					font-weight: 500;
+					font-size: var(--f-u2);
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -190,28 +208,65 @@ const featuredProject = projects[0];
 				width="1600"
 				height="1131"
 				class="img"
-				src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-				srcSet="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w"
-				sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
+				src="https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?cs=srgb&dl=pexels-cmonphotography-1809644.jpg&fm=jpg"
 			/>
-			<div class="gradient"></div>
-			<div class="gradient2"></div>
+      
+			
 			<div class="overlay">
-				<h1 class="title">
-					<small class="subtitle">The personal site of </small>Jeanine White
+				<h1 class="title" style="color:white;">
+					<small class="subtitle" style="color:white;">Welcome to my website!</small >
+            I'm Taiming
 				</h1>
+        <br>
+        <br>
 				<div>
-					<span class="role">👩‍💻 Developer <span class="invert">👩‍💻 Developer</span></span>&nbsp;
-					<span class="role">🎤 Speaker <span class="invert">🎤 Speaker</span></span>&nbsp;
-					<span class="role">✏️ Writer <span class="invert">✏️ Writer</span></span>
+					<span class="role"> Computer Science + Applied Mathematics and Statistics Student <span class="invert">👩‍💻 Developer</span></span>&nbsp;
 				</div>
-				<p class="desc">Lover of dogs, roadtrips, and poetry.</p>
 			</div>
 		</header>
 		<main class="wrapper mt4 mb4">
-			<div class="grid">
+			<div class="grid" style = "position:relative; left:-100px;">
+				
 				<div class="section">
-					<h3 class="sectionTitle">Selected Work</h3>
+					<h3 class="sectionTitle">About me</h3>
+					<p class="bio">
+						<span>Hello!</span> 
+          </p>
+          <p class="pure_text" >
+            <span>I'm a rising junior at Johns Hopkins University studying Computer Science and
+               Applied Math and Statistics. I'm also working on a minor in Entrepreneurship and Management.</span>
+          </p>
+
+          <p class="pure_text" >
+            <span>
+              In my free time I enjoy tennis, ultimate frisbee, soccer, and cycling.
+              <br><br>
+              Yup, that's me in the neon-yellow t-shirt!
+            </span>
+            
+          </p>
+				
+					
+					<p>
+						<a href="/about">Read more</a>
+					</p>
+				</div>
+        
+        <img
+        class = "pics"
+        style = "position:relative; left:30px; top:100px max-width:150%"
+				src="../../assets/frisbee.JPG"/>
+
+        <br>
+        <div style = "position:relative; left:130px; top:-30px;">
+          <p class="pure_text">
+            <span>My favorite place to play ultimate frisbee</span>
+          </p>
+        </div>
+
+        <div class="section">
+          
+					<h3 class="sectionTitle">Projects</h3>
 					<PortfolioPreview project={featuredProject} />
 					<div class="tac mt4">
 						<a href="/projects">
@@ -219,17 +274,9 @@ const featuredProject = projects[0];
 						</a>
 					</div>
 				</div>
-				<div class="section">
-					<h3 class="sectionTitle">About me</h3>
-					<p class="bio">
-						<span>Hello!</span> I’m Jeanine, and this is my website. It was made using{' '}
-						<a href="https://github.com/withastro/astro" target="_blank" rel="nofollow"> Astro </a>, a new way to build static sites. This is just an example template for you to
-						modify.
-					</p>
-					<p>
-						<a href="/about">Read more</a>
-					</p>
-				</div>
+
+        
+
 			</div>
 		</main>
 		<Footer />

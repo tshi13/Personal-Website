@@ -10,14 +10,7 @@ function PortfolioPreview({ project }) {
 			</div>
 			<div className="pa3">
 				<p className={`${Styles.desc} mt0 mb2`}>{frontmatter.description}</p>
-				<div className={Styles.tags}>
-					Tagged:
-					{frontmatter.tags.map((t) => (
-						<div className={Styles.tag} data-tag={t}>
-							{t}
-						</div>
-					))}
-				</div>
+				
 				<a className={Styles.link} href={project.url}>
 					<span className={Styles.linkInner}>View</span>
 				</a>
