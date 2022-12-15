@@ -3,7 +3,8 @@ layout: ../../layouts/project.astro
 title: 
 client: Self
 publishDate: 2020-03-02 00:00:00
-img: ../../../public/assets/split.png
+# img: ../../../public/assets/split.png
+img: https://imgur.com/8WDiJVX.png
 description: |
   College is expensive but life doesn't have to be. Split.it is a web app that makes costpooling easy and reduces our carbon footprint.
 tags:
