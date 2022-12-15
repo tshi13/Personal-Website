@@ -17,6 +17,8 @@
     "sass": "^1.52.2"
   },
   "dependencies": {
-    "preact": "^10.7.3"
+    "@types/react": "^18.0.26",
+    "preact": "^10.7.3",
+    "react-typed": "^1.2.0"
   }
 }

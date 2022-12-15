@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import Styles from './styles.module.scss';
+import React from 'react';
 
 function Nav() {
 	return (

@@ -1,5 +1,7 @@
 import { h } from 'preact';
 import Styles from './styles.module.scss';
+import Typed from "react-typed"
+
 
 function PortfolioPreview({ project }) {
 	const { frontmatter } = project;

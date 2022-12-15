@@ -5,6 +5,11 @@ import Button from '../components/Button/index.jsx';
 import Nav from '../components/Nav/index.jsx';
 import Footer from '../components/Footer/index.jsx';
 import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
+import React,{ Component } from 'react';
+import Typed from "react-typed";
+import Typing from '../components/Typing';
+
+
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob('./project/**/*.md');
@@ -16,7 +21,7 @@ const featuredProject = projects[0];
 
 <html lang="en">
 	<head>
-		<MainHead title="Jeanine White: Personal Site" description="Jeanine White: Developer, Speaker, and Writer..." />
+		<MainHead title="Taiming Shi: Personal Site" description="Taiming: Developer, Speaker, and Writer..." />
 		<style lang="scss">
 			$w-s: 750px;
 
@@ -214,15 +219,23 @@ const featuredProject = projects[0];
 			
 			<div class="overlay">
 				<h1 class="title" style="color:white;">
-					<small class="subtitle" style="color:white;">Welcome to my website!</small >
-            I'm Taiming
+					<small class="subtitle" style="color:white;">I'm Taiming!
+					<Typing client:only="react"/>
+
+					</small >
+            Taiming Shi
 				</h1>
+				<h2 class="title" style="color:white;">
+					heyy
+					
+				</h2>
         <br>
         <br>
 				<div>
-					<span class="role"> Computer Science + Applied Mathematics and Statistics Student <span class="invert">👩‍💻 Developer</span></span>&nbsp;
-				</div>
+				<span class="role"> Computer Science + Applied Mathematics and Statistics Major <span class="invert">Entrepreneurship and Management Minor</span></span>&nbsp;
 			</div>
+			</div>
+			
 		</header>
 		<main class="wrapper mt4 mb4">
 			<div class="grid" style = "position:relative; left:-100px;">
@@ -236,6 +249,8 @@ const featuredProject = projects[0];
             <span>I'm a rising junior at Johns Hopkins University studying Computer Science and
                Applied Math and Statistics. I'm also working on a minor in Entrepreneurship and Management.</span>
           </p>
+					
+					
 
           <p class="pure_text" >
             <span>
