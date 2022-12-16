@@ -3,17 +3,16 @@ import React,{ Component } from 'react';
 
 export default function Typing() {
 	return(
-		<div>
+		<div style={{fontSize : "16px"}}>
 			<h1>
 			<Typed
 								strings={[
-									"Full Stack Developer",
-									"Meet New Friends 😎",
-									"Create Groups 🤩",
-									"Bet on Your Success 🥂",
-									"Win Money 💵"
+									"Full Stack Developer 💻",
+									"Ping Pong Expert 🏓",
+									"Frisbee lover 🥏",
+									"Music Enthusiast 🎧"
 								]}
-								typeSpeed={70}
+								typeSpeed={90}
 								backSpeed={20}
 								loop
 								/>
