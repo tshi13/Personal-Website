@@ -4,7 +4,7 @@ title:
 client: Self
 publishDate: 2020-03-02 00:00:00
 # img: ../../../public/assets/split.png
-img: ../../../public/assets/doit.png
+img: https://imgur.com/r7hzSjt.png
 description: |
   Stop procrastinating. Let your friends help and hold you accountable for the most important things. 
 tags:
