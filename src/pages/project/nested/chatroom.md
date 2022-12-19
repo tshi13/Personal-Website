@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: ../../../layouts/project.astro
 title: 
 client: Self
@@ -16,4 +16,4 @@ Go to the chatroom using this link: https://bloochat-tshi13.herokuapp.com/
 
 First time users should register with a new username and password before logging in!
 
-![MarineGEO circle logo](/assets/frisbee.jpg   "MarineGEO logo")
+![MarineGEO circle logo](/assets/frisbee.jpg   "MarineGEO logo") -->
