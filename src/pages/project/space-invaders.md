@@ -4,6 +4,8 @@ title:
 client: Self
 publishDate: 2020-03-02 00:00:00
 img: https://imgur.com/whRCa82.jpg
+preview: https://imgur.com/whRCa82.jpg
+
 description: |
   Try out my space invaders game! Use arrow keys to move the spaceship, press space bar to launch missiles!
 tags:
