@@ -13,28 +13,20 @@ tags:
 
 ---
 
-I'm currently leading a team of 6 to work on a task completion producitivity application called Do It. 
+I'm currently leading a team of 6 to work on a task completion producitivity application called Do It. I focused on building Mongoose Schemas and developed all backend RESTful APIs that handle creating and modifying accounts, groups, and tasks as well as fetching relevant data from our MongoDB database. I also designed our landing page and integrated Google + Facebook login authentication as well as GetStream chat API
 
-The purpose of the DoIt application is to help you stay focused and motivated on the important things in life. Whenever you want to stay focused or show off your accomplishments to your circle of friends, use DoIt and place a bet of DoIt coins. Stay motivated daily and turn hard work into a handful of DoIt coins. In the future, we believe that DoIt would be a popular productivity app that helps people beat their laziness and reach their goals with others in an interesting and pleasant way.
+The purpose of DoIt is to help you stay focused and motivated on the important things in life. The market lacks a solution that focuses on actually pushing users to actually do the tasks! We discovered people are motivated more by losses than by gains, so we want to motivate people by introducing consequences of having DoIt coins on the line. 
 
-Here's why:
-* People often feel unmotivated and discouraged to do academic, professional, and personal tasks. :sob:
-* There currently are only to-do list applications that allow you to list and plan the tasks that you need to complete. 
-* The market is lacking a solution that focuses on actually pushing users to actually do the tasks! DoIt is our solution to these problems. :relaxed:
+Whenever you want to stay focused or show off your accomplishments to your circle of friends, use DoIt and place a bet of DoIt coins. Stay motivated daily and turn hard work into a handful of DoIt coins. In the future, we believe that DoIt would be a popular productivity app that helps people beat their laziness and reach their goals with others in an interesting and pleasant way.
 
-Through the betting system in Dolt, users need a certain amount of Dolt coins to play the game. Users can set private tasks for themselves or set tasks for everyone in a group. For group tasks, other people can keep track of them by verifying their posts in the group chat. The user who fails to do their tasks will lose DoIt coins and the rest of the users will spilt the coins evenly. Successful users will be able to help friends gain better habits, get tasks done, earn more DoIt coins along the way, and have the opportunity to upload content to group chats to communicate with friends. People are motivated more by losses than by gains, so we want to motivate people by introducing consequences of having DoIt coins on the line. We also allow users to be motivated by recognition in the group chat and by gaining group coins when they complete tasks.
 
-Types of Coins:
-* Free coins (Users start out with some coins upon registration)
-* In the future, we may choose to include paid coins; however, the DoIt app only offers free coins at this time.
+* Users can set private tasks for themselves or set tasks for everyone in a group. 
+* For group tasks, other people can keep track of them by verifying their posts in the group chat. The user who fails to do their tasks will lose DoIt coins and the rest of the users will spilt the coins evenly. Successful users will be able to help friends gain better habits, get tasks done, earn more DoIt coins along the way, and have the opportunity to upload content to group chats to communicate with friends. 
 
-The existence of free coins allows users to complete tasks under the supervision of others (and face possible consequences of losing DoIt coins) while enjoying the fun of gaining community recognition and rewards when friends fail to do tasks.
+Check out our deployed website: https://doit-oose.herokuapp.com/
 
 
 ### Built With
-
-Here are major frameworks/libraries we used to build our project.
-
 * [![Node.js][Node.js.com]][Node.js-url]
 * [![React][React.js]][React-url]
 * [![Express][Express.com]][Express-url]

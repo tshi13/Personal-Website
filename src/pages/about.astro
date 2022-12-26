@@ -9,12 +9,12 @@ import Nav from '../components/Nav/index.jsx';
 		<MainHead title="About | Taiming Shi" description="About Taiming Shi" />
 		<style lang="scss">
 			.heroImg {
-				max-height: 40rem;
-				object-fit: cover;
+				max-height: 50rem;
+				object-fit: none;
 				overflow: hidden;
-
 				img {
 					width: 100%;
+					height: 100%;
 				}
 			}
 
@@ -28,13 +28,69 @@ import Nav from '../components/Nav/index.jsx';
 		<Nav />
 		<div class="wrapper">
 			<h1>About Me!</h1>
-			<div class="heroImg">
-				<img width="1400" height="800" src="https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg"/>
+			<div style=" justify-content: center">
+				<img src="../../public/assets/about me.jpg" style = " max-height:40rem; width: 100%; height: 40%; object-fit: cover;"/>
+				<p style="display: flex; justify-content: center">
+					Griffith Park, Los Angeles | Dec 20, 2022
+				</p>
 			</div>
 			<div class="bio wrapper wrapper__readable mt8">
-				<p>
-				Hi! Thanks for clicking in!
-        This page will be updated soon.
+				<p >
+				<b style="font-size: 30px;">Education</b> <hr>
+				<b>Johns Hopkins University </b> | Baltimore, MD <br>
+				Bachelor of Science in Computer Science, Applied Mathematics and Statistics <br>
+				Minor: Entrepreneurship & Management <br>
+				<b>GPA: </b> 3.94/4.0, Dean’s List <br>
+				CS Courses: Data Structures, Algorithms, Computer System Fundamentals, Full Stack JavaScript, Object Oriented Software Engineering <br>
+				Math Courses: Calculus, Linear Algebra, Differential Equations, Discrete Mathematics, Probability, Statistics, Optimization <br><br>
+
+				<b style="font-size: 30px;">Internships</b> <hr>
+				<b>Software Developer Intern, <a href="https://attainpartners.com/" style="text-decoration: none;">Attain Partners</a> </b> | McLean, VA  <span style="float:right">June 2022 - July 2022</span><br>
+				<ul style="text-justify: distribute-all-lines;">
+				<li style="padding-left: 15px;">Led team of 3 interns and created an efficient, maintainable, and configurable software tool for consultants that
+					automated the encryption process of sensitive client information in large CSV and 60+ page Excel financial reports using Python</li> 
+				<li style="padding-left: 15px;">Improved efficiency and accuracy for consultant team by minimizing manual anonymization task duration from multiple days
+					to within 10 minutes </li>
+				<li style="padding-left: 15px;"> Collaborated with internal Innovations Team and facilitated creation of decision tree machine learning model using
+					MLB data that determines when to send a runner on third in the event of a sacrifice fly opportunity</li>
+					<li style="padding-left: 15px;"> Provided results to Baltimore Orioles with visualizations and analytics to help team make better game-time decisions</li>
+				</ul>
+
+				<b>Growth and Product Intern, <a href="https://lobby.game/" style="text-decoration: none;">Lobby</a> </b> | Menlo Park, CA  <span style="float:right">June 2021 - July 2021</span><br>
+				<ul style="text-justify: distribute-all-lines;">
+				<li style="padding-left: 15px;">Designed TikTok ads to promote product, produced lowest CPA (cost per action) among growth team and generated
+					2000+ downloads for the social media app startupconsultants that
+					automated the encryption process of sensitive client information in large CSV and 60+ page Excel financial reports using Python</li> 
+				<li style="padding-left: 15px;">Interpreted automatic user report history data for in-app screening rules and provided recommendations to optimize
+					regulation system, minimize bad behavior, and maintain a healthy online environment for users </li>
+				<li style="padding-left: 15px;"> Filtered through feedback from users and outlined new product features, helped generate “Lobby Championship” and
+					“Report User” features</li>
+				</ul>
+
+				<b style="font-size: 30px;">Projects</b> <hr>
+				<b>Team Lead, <a href="https://doit-oose.herokuapp.com/" style="text-decoration: none;">DoIT</a> </b>  <span style="float:right">Sep 2022 - Present</span><br>
+				<ul style="text-justify: distribute-all-lines;">
+				<li style="padding-left: 15px;">Led team of 6 to develop a productivity web application that introduces a group incentivization mechanism for users
+					to complete tasks on time utilizing MongoDB, Express.js, React, and Node</li> 
+				<li style="padding-left: 15px;">Assigned weekly GitHub issues to team members, planned and managed iteration progress with GitHub project
+					board, and reviewed pull requests </li>
+				<li style="padding-left: 15px;"> Integrated Google and Facebook login authentication as well as GetStream chat API</li>
+				<li style="padding-left: 15px;"> Setup Mongoose Schemas and developed all backend RESTful APIs that handle creating and modifying accounts,
+					groups, and tasks as well as fetching relevant data from database</li>
+				<li style="padding-left: 15px;"> Read more about DoIT <a href="/project/do-it" style="text-decoration: none;">here on my website</a></li>
+				</ul>
+
+				<b>Full Stack Developer, <a href="https://www.trysplit.it/" style="text-decoration: none;">Split.it</a> </b>  <span style="float:right">June 2022 - Present</span><br>
+				<ul style="text-justify: distribute-all-lines;">
+				<li style="padding-left: 15px;">Launched an online platform that enables users who use ride-sharing apps to easily find people to split the fare with</li> 
+				<li style="padding-left: 15px;">Implemented frontend that allows users to customize date, time, pickup location, destination, ride capacity, and notes
+					when creating a new ride-sharing event or joining existing events using React </li>
+				<li style="padding-left: 15px;"> Created and integrated frontend and backend for reporting users for bad behavior using MongoDB, Express.js</li>
+				<li style="padding-left: 15px;"> Read more about Split.it <a href="/project/cost-pooling" style="text-decoration: none;">here on my website</a></li>
+				</ul>
+
+
+				
 
 				</p>
 				
