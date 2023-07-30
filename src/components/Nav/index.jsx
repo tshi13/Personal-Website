@@ -12,7 +12,7 @@ function Nav() {
 				Projects
 			</a>
 			<a className={Styles.link} href="/about">
-				More about me
+				Resume
 			</a>
 			<a className={Styles.social} href="https://github.com/tshi13" target="_blank" rel="noopener noreferrer">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
